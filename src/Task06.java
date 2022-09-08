@@ -7,7 +7,7 @@ public class Task06 {
         Random random = new Random();
         int quantity;
 do {
-        System.out.println("Enter quantity of random repeats: ");
+        System.out.print("Enter quantity of random repeats: ");
         quantity = scanner.nextInt();
 }while(quantity<=0);
 
@@ -19,7 +19,7 @@ do {
             }
 
         }
-        String msg = String.format ("Quantity of true is" d%, "quantity of false is" d% ": positive, quantity-positive);
+        String msg = String.format ("Quantity of true is %d quantity of false is %d ", positive, quantity-positive);
         System.out.print(msg);
     }
 }
